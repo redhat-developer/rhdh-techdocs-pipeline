@@ -2,9 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: my-doc-entity
+  title: RHDH TechDocs Pipeline
+  description: GitHub Actions workflow that builds TechDocs and publishes them to AWS S3 for external TechDocs mode.
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
   lifecycle: production
   type: backstage-common-library
-  owner: 04kash
+  owner: user:default/04kash
