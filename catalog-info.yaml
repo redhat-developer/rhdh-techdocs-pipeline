@@ -7,6 +7,6 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
-  lifecycle: production
+  lifecycle: experimental
   type: backstage-common-library
   owner: user:default/04kash
